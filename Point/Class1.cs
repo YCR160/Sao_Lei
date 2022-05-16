@@ -19,7 +19,7 @@
             }
             var pos = s.Split(',');
             if (!int.TryParse(pos[0], out X)) X = 0;
-            if (!int.TryParse(pos[0], out Y)) Y = 0;
+            if (!int.TryParse(pos[1], out Y)) Y = 0;
         }
     }
 }
