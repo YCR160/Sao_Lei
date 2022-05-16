@@ -1,31 +1,9 @@
 ﻿using System;
+using Utils.Point;
 namespace test
 {
     class Program
     {
-        class Point
-        {
-            public int X;
-            public int Y;
-
-            public Point(int a, int b)
-            {
-                X = a;
-                Y = b;
-            }
-
-            public Point(string s)
-            {
-                if (s == null)
-                {
-                    s = "0,0";
-                }
-                var pos = s.Split(',');
-                if (!int.TryParse(pos[0], out X)) X = 0;
-                if (!int.TryParse(pos[0], out Y)) Y = 0;
-            }
-        }
-
         const int field = 10;
         static int[,] lei = new int[field, field];
 
