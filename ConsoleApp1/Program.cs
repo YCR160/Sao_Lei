@@ -89,11 +89,11 @@ namespace test
                     if ((point.X > field - 1 || point.Y > field - 1) || (point.X < 0 || point.Y < 0)) continue;
                     if (lei[point.X, point.Y] == -1)
                     {
-                        Console.WriteLine("寄");
+                        Console.WriteLine(" 寄寄寄寄寄寄寄寄寄寄寄寄寄寄寄寄寄寄寄寄 ");
                         break;
                     }
                     else Count(point.X, point.Y);
-                    if (num == 0) Console.WriteLine(" 你好扫啊 ");
+                    if (num == 0) Console.WriteLine(" 你好扫啊~ ");
                 }
             }
             Console.ReadKey();
