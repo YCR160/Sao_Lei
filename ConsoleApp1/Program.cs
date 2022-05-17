@@ -68,7 +68,7 @@ namespace test
                         num++;
                     }
                 }
-                num = field * field - 10;
+                num = field * field - field;
                 Count(point.X, point.Y);
                 while (true)
                 {
